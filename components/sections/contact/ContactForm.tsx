@@ -16,7 +16,7 @@ export default function ContactForm() {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                  className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                   required
                 />
               </div>
@@ -28,7 +28,7 @@ export default function ContactForm() {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                  className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                   required
                 />
               </div>
@@ -41,7 +41,7 @@ export default function ContactForm() {
                 type="tel"
                 id="phone"
                 name="phone"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
               />
             </div>
             <div>
@@ -52,7 +52,7 @@ export default function ContactForm() {
                 type="text"
                 id="subject"
                 name="subject"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                 required
               />
             </div>
@@ -64,14 +64,14 @@ export default function ContactForm() {
                 id="message"
                 name="message"
                 rows={6}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                 required
               ></textarea>
             </div>
             <div className="text-center">
               <button
                 type="submit"
-                className="bg-[#F15A24] text-white px-8 py-3 rounded-lg hover:bg-[#d14416] transition-colors"
+                className="bg-[#F15A24] text-white px-8 py-3  hover:bg-[#d14416] transition-colors"
               >
                 Send Message
               </button>

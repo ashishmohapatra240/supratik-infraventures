@@ -37,7 +37,7 @@ export default function EnquiryModal({
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+              <Dialog.Panel className="w-full max-w-md transform overflow-hidden bg-white p-6 text-left align-middle shadow-xl transition-all">
                 <div className="flex justify-between items-center mb-6">
                   <Dialog.Title as="h3" className="text-lg font-semibold">
                     Quick Enquiry
@@ -74,7 +74,7 @@ export default function EnquiryModal({
                       type="text"
                       id="name"
                       name="name"
-                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                      className="w-full px-3 py-2 text-sm border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                       required
                     />
                   </div>
@@ -90,7 +90,7 @@ export default function EnquiryModal({
                       type="email"
                       id="email"
                       name="email"
-                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                      className="w-full px-3 py-2 text-sm border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                       required
                     />
                   </div>
@@ -106,7 +106,7 @@ export default function EnquiryModal({
                       type="tel"
                       id="phone"
                       name="phone"
-                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                      className="w-full px-3 py-2 text-sm border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                       required
                     />
                   </div>
@@ -122,7 +122,7 @@ export default function EnquiryModal({
                       id="message"
                       name="message"
                       rows={4}
-                      className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                      className="w-full px-3 py-2 text-sm border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
                       required
                     ></textarea>
                   </div>
@@ -130,7 +130,7 @@ export default function EnquiryModal({
                   <div className="mt-6">
                     <button
                       type="submit"
-                      className="w-full bg-[#F15A24] text-white px-4 py-2 rounded-lg hover:bg-[#d14416] transition-colors text-sm"
+                      className="w-full bg-[#F15A24] text-white px-4 py-2  hover:bg-[#d14416] transition-colors text-sm"
                     >
                       Submit Enquiry
                     </button>

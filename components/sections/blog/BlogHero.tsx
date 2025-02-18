@@ -7,11 +7,12 @@ export default function BlogHero() {
             Our <span className="text-[#F15A24]">Blog</span>
           </h1>
           <p className="text-sm md:text-lg leading-relaxed text-gray-600">
-            Stay informed with the latest insights, trends, and news in real estate
-            development. Discover expert perspectives and industry updates.
+            Stay informed with the latest insights, trends, and news in real
+            estate development. Discover expert perspectives and industry
+            updates.
           </p>
         </div>
       </div>
     </section>
   );
-} 
+}

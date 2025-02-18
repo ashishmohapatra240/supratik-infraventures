@@ -8,8 +8,10 @@ export default function BrandsShowcase() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-2xl font-bold inline-flex gap-2">
-            BRANDS WE LOVE TO WORK <span className="text-[#F15A24]">WITH</span>
+          <h2 className="text-2xl font-bold">
+            BRANDS WE LOVE TO
+            <br />
+            WORK <span className="text-[#F15A24]">WITH</span>
           </h2>
         </div>
 

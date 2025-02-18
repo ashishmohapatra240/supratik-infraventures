@@ -32,7 +32,7 @@ export default function PropertyFeatures() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
+              className="bg-white p-4  shadow-sm hover:shadow-md transition-all duration-300"
             >
               <div className="text-3xl mb-2">{feature.icon}</div>
               <h3 className="text-base font-semibold mb-1">{feature.title}</h3>

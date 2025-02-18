@@ -48,7 +48,7 @@ export default function PropertyListing() {
           {properties.map((property) => (
             <div
               key={property.id}
-              className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
+              className="bg-white  overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
             >
               <div className="relative aspect-[4/3]">
                 <Image
@@ -57,7 +57,7 @@ export default function PropertyListing() {
                   fill
                   className="object-cover"
                 />
-                <div className="absolute top-4 right-4 bg-[#F15A24] text-white px-3 py-1 rounded-full text-xs">
+                <div className="absolute top-4 right-4 bg-[#F15A24] text-white px-3 py-1 text-xs">
                   {property.status}
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function PropertyListing() {
                   <span className="text-lg font-bold">{property.price}</span>
                   <Link
                     href={`/property/${property.id}`}
-                    className="bg-[#F15A24] text-white px-6 py-2 rounded hover:bg-[#d14416] transition-colors"
+                    className="bg-[#F15A24] text-white px-6 py-2 hover:bg-[#d14416] transition-colors"
                   >
                     View Details
                   </Link>

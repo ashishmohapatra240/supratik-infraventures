@@ -11,7 +11,7 @@ export default function Hero() {
               src="/images/hero-image.png"
               alt="Modern Architecture"
               // fill
-              className="object-cover rounded-lg"
+              className="object-cover"
               priority
               height={200}
               width={300}

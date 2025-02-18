@@ -15,7 +15,7 @@ export default function PropertyHero() {
             home with Supratik.
           </p>
         </div>
-        <div className="relative w-full h-[60vh] rounded-lg overflow-hidden">
+        <div className="relative w-full h-[60vh]  overflow-hidden">
           <Image
             src="/images/property/hero.jpg"
             alt="Luxury Property"

@@ -14,7 +14,7 @@ export default function BlogCategories() {
           {categories.map((category, index) => (
             <button
               key={index}
-              className={`px-6 py-2 rounded-full text-sm transition-colors ${
+              className={`px-6 py-2 text-sm transition-colors ${
                 index === 0
                   ? "bg-[#F15A24] text-white"
                   : "bg-gray-100 text-gray-600 hover:bg-gray-200"

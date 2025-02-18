@@ -33,7 +33,7 @@ export default function CareerPositions() {
           {positions.map((position) => (
             <div
               key={position.id}
-              className="bg-white p-4 rounded-lg shadow-sm transition-all duration-300"
+              className="bg-white p-4  shadow-sm transition-all duration-300"
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                 <div>
@@ -45,7 +45,7 @@ export default function CareerPositions() {
                     {position.location}
                   </span>
                   <span className="text-xs text-gray-400">{position.type}</span>
-                  <button className="bg-[#F15A24] text-white px-4 py-1 rounded hover:bg-[#d14416] transition-colors">
+                  <button className="bg-[#F15A24] text-white px-4 py-1 hover:bg-[#d14416] transition-colors">
                     Apply Now
                   </button>
                 </div>

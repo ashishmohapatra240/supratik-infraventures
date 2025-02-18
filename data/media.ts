@@ -19,7 +19,7 @@ export const mediaItems: MediaItem[] = [
         id: 3,
         title: "Project Launch",
         description: "Our bilingual and trilingual lawyers offer first-rate support to companies from all over the world, in both advisory and litigation matters, in connection with their activities in France. Saint Valentin Zerrouk also assists its clients with cross-border transactions, thanks to a solid network of foreign colleagues with whom the firm has privileged relationships.",
-        image: "/images/media/news-1.jpg",
+        image: "/images/media/news-2.jpg",
         link: "#watch-now-3"
     }
 ]; 

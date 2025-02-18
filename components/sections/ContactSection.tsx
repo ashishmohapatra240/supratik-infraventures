@@ -55,7 +55,7 @@ export default function ContactSection() {
           </div>
 
           {/* Form */}
-          <div className="bg-white p-8 rounded-lg space-y-6">
+          <div className="bg-white p-8 space-y-6">
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid grid-cols-2 gap-4">
                 <div>

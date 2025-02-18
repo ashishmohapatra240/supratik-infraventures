@@ -15,7 +15,7 @@ export default function CareerHero() {
               encouraging innovation, and creating opportunities for growth.
             </p>
           </div>
-          <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+          <div className="relative w-full aspect-video  overflow-hidden">
             <Image
               src="/images/career/team.jpg"
               alt="Team at work"

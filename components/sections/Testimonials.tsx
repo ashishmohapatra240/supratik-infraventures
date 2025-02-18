@@ -84,12 +84,12 @@ const Testimonials = () => {
             <div className="flex flex-col items-center">
               {/* Testimonial Image */}
               <div className="relative w-32 h-32 mx-auto mb-8">
-                <div className="absolute inset-0 rounded-full border-4 border-yellow-400" />
+                <div className="absolute inset-0  border-4 border-yellow-400" />
                 <Image
                   src={testimonials[currentIndex].image}
                   alt="Testimonial"
                   fill
-                  className="rounded-full object-cover"
+                  className="object-cover"
                 />
               </div>
 

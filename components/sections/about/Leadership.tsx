@@ -15,7 +15,7 @@ const leaders = [
     name: "Tannmaya",
     position: "Business Head",
     subPosition: "BBSR",
-    image: "/images/team/pratik.jpg",
+    image: "/images/team/Tannmay.jpg",
     linkedin: "https://www.linkedin.com/in/prakit-sarda",
   },
   {
@@ -23,7 +23,7 @@ const leaders = [
     name: "Sanat Mohanty",
     position: "Marketing Head",
     subPosition: "",
-    image: "/images/team/pratik.jpg",
+    image: "/images/team/Sanat.jpg",
     linkedin: "https://www.linkedin.com/in/prakit-sarda",
   },
 ];
@@ -40,7 +40,7 @@ export default function Leadership() {
           {leaders.map((leader) => (
             <div
               key={leader.id}
-              className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
+              className="bg-white p-6  shadow-sm hover:shadow-md transition-all duration-300"
             >
               {/* Image Container */}
               <div className="relative aspect-[3/4] mb-6">
@@ -48,7 +48,7 @@ export default function Leadership() {
                   src={leader.image}
                   alt={leader.name}
                   fill
-                  className="object-cover rounded-md"
+                  className="object-cover"
                 />
               </div>
 

@@ -18,7 +18,7 @@ export default function CareerCulture() {
           {cultureImages.map((image, index) => (
             <div
               key={index}
-              className="relative aspect-square rounded-lg overflow-hidden"
+              className="relative aspect-square  overflow-hidden"
             >
               <Image
                 src={image}

@@ -16,27 +16,27 @@ export default function PropertyContact() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+                className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
               />
             </div>
             <input
               type="tel"
               placeholder="Phone Number"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+              className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
             />
             <textarea
               placeholder="Your Message"
               rows={4}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+              className="w-full px-4 py-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
             ></textarea>
             <button
               type="submit"
-              className="bg-[#F15A24] text-white px-8 py-3 rounded-lg hover:bg-[#d14416] transition-colors"
+              className="bg-[#F15A24] text-white px-8 py-3  hover:bg-[#d14416] transition-colors"
             >
               Send Message
             </button>

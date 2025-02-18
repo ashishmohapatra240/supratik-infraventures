@@ -47,7 +47,7 @@ export default function Navbar() {
               ))}
               <button
                 onClick={() => setIsEnquiryOpen(true)}
-                className="bg-[#F15A24] text-white px-4 py-2 rounded hover:bg-[#d14416] transition-colors text-sm capitalize"
+                className="bg-[#F15A24] text-white px-4 py-2 hover:bg-[#d14416] transition-colors text-sm capitalize"
               >
                 enquiry
               </button>
@@ -97,7 +97,7 @@ export default function Navbar() {
                   setIsMenuOpen(false);
                   setIsEnquiryOpen(true);
                 }}
-                className="w-full bg-[#F15A24] text-white px-4 py-2 rounded hover:bg-[#d14416] transition-colors text-sm capitalize mt-4"
+                className="w-full bg-[#F15A24] text-white px-4 py-2 hover:bg-[#d14416] transition-colors text-sm capitalize mt-4"
               >
                 enquiry
               </button>

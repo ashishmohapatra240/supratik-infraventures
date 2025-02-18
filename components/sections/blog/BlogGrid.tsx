@@ -9,7 +9,7 @@ const blogPosts = [
       "Explore how sustainable building practices are shaping the future of residential development in India...",
     category: "Real Estate",
     date: "March 15, 2024",
-    image: "/images/blog/post-1.jpg",
+    image: "/images/blog/blog-1.jpg",
     author: {
       name: "Pratik Jena",
       avatar: "/images/team/pratik.jpg",
@@ -22,10 +22,10 @@ const blogPosts = [
       "Discover the latest smart home innovations that are transforming modern living spaces...",
     category: "Technology",
     date: "March 10, 2024",
-    image: "/images/blog/post-2.jpg",
+    image: "/images/blog/blog-2.jpg",
     author: {
       name: "Sanat Mohanty",
-      avatar: "/images/team/pratik.jpg",
+      avatar: "/images/team/Sanat.jpg",
     },
   },
   {
@@ -35,10 +35,10 @@ const blogPosts = [
       "An in-depth analysis of the growing real estate market in Bhubaneswar and upcoming opportunities...",
     category: "Market Trends",
     date: "March 5, 2024",
-    image: "/images/blog/post-3.jpg",
+    image: "/images/blog/blog-3.jpg",
     author: {
       name: "Tannmaya",
-      avatar: "/images/team/pratik.jpg",
+      avatar: "/images/team/Tanmay.jpg",
     },
   },
 ];
@@ -51,7 +51,7 @@ export default function BlogGrid() {
           {blogPosts.map((post) => (
             <article
               key={post.id}
-              className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
+              className="bg-white overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
             >
               <Link href={`/blog/${post.id}`}>
                 <div className="relative aspect-[16/9]">
@@ -65,7 +65,7 @@ export default function BlogGrid() {
               </Link>
               <div className="p-6">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="relative w-10 h-10 rounded-full overflow-hidden">
+                  <div className="relative w-10 h-10 overflow-hidden">
                     <Image
                       src={post.author.avatar}
                       alt={post.author.name}

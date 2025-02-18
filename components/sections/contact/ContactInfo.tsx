@@ -72,7 +72,7 @@ export default function ContactInfo() {
           {contactDetails.map((contact, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-sm transition-all duration-300"
+              className="bg-white p-6  shadow-sm transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="text-[#F15A24]">{contact.icon}</div>

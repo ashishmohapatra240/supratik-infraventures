@@ -5,7 +5,7 @@ export default function AboutHero() {
     <section className="min-h-screen flex items-center pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative w-full aspect-square rounded-full overflow-hidden">
+          <div className="relative w-full aspect-square overflow-hidden">
             <Image
               src="/images/about/ceo.png"
               alt="CEO Portrait"

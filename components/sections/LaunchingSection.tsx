@@ -59,10 +59,10 @@ export default function LaunchingSection() {
           {/* Image */}
           <div className="relative h-[300px] lg:h-[400px]">
             <Image
-              src="/images/media/news-1.jpg"
+              src="/images/hero-image.png"
               alt="Launching Soon"
               fill
-              className="object-cover rounded-lg"
+              className="object-cover"
             />
           </div>
 
@@ -108,14 +108,14 @@ export default function LaunchingSection() {
             </div>
 
             {/* Launch Date */}
-            <div className="pt-8">
+            {/* <div className="pt-8">
               <p className="text-lg">
                 Launch Date:{" "}
                 <span className="text-[#F15A24] font-bold">
                   1 May 2025
                 </span>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

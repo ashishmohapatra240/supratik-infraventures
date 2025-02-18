@@ -75,7 +75,7 @@ export default function PropertyShowcase() {
               src={currentProperty.image}
               alt={currentProperty.name}
               fill
-              className="object-cover rounded-lg"
+              className="object-cover"
               priority
             />
           </div>
@@ -124,7 +124,7 @@ export default function PropertyShowcase() {
             <button
               key={index}
               onClick={() => setCurrentIndex(index)}
-              className={`w-2 h-2 rounded-full transition-colors ${
+              className={`w-2 h-2 transition-colors ${
                 index === currentIndex ? "bg-[#F15A24]" : "bg-gray-300"
               }`}
               aria-label={`Go to property ${index + 1}`}

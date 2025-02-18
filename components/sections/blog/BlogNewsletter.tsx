@@ -14,11 +14,11 @@ export default function BlogNewsletter() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
+              className="flex-1 px-4 py-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#F15A24]"
             />
             <button
               type="submit"
-              className="bg-[#F15A24] text-white px-8 py-3 rounded-lg hover:bg-[#d14416] transition-colors whitespace-nowrap"
+              className="bg-[#F15A24] text-white px-8 py-3 hover:bg-[#d14416] transition-colors whitespace-nowrap"
             >
               Subscribe Now
             </button>
