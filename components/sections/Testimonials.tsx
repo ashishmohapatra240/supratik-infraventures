@@ -8,33 +8,33 @@ const testimonials = [
     id: 1,
     image: "/images/testimonials/testimonial1.png",
     content:
-      "I have been fortunate enough to volunteer with this organization and it has been a life-changing experience. The dedication and passion of the team is truly inspiring.",
-    name: "Rahul Patel",
-    role: "Volunteer",
+      "I was blown away by the professionalism and dedication of Supratik Infraventures throughout my home-buying journey. They were incredibly knowledgeable about the market and were always available to answer my questions. They helped me find the perfect home for my family and made the entire process stress-free.",
+    name: "Manisha T.",
+    role: "Teacher",
   },
   {
     id: 2,
     image: "/images/testimonials/testimonial2.png",
     content:
-      "The organization has given me a platform to make a difference in the lives of others. It has been a truly rewarding experience.",
-    name: "Amita Singh",
-    role: "Volunteer",
+      "From the very first consultation, I felt like Supratik Infraventures truly understood my needs and aspirations. The team guided me at every step, making sure I found the perfect property. Their attention to detail and commitment to finding exactly what I wanted exceeded all expectations!",
+    name: "Rajiv S.",
+    role: "Businessman",
   },
   {
     id: 3,
     image: "/images/testimonials/testimonial3.png",
     content:
-      "I have been impressed by the organization's commitment to its cause. It is truly making a positive impact in the community.",
-    name: "Rajesh Kumar",
-    role: "Volunteer",
+      "The team at Supratik Infraventures didn’t just sell me a property—they became partners in my journey. Their knowledge of the market, honest advice, and attention to detail made the entire experience stress-free. I now feel confident and excited about my investment.",
+    name: "Arvind K.",
+    role: "Property Investor",
   },
   {
     id: 4,
     image: "/images/testimonials/testimonial4.png",
     content:
-      "Volunteering with this organization has been a humbling experience. It has taught me the value of selflessness and compassion.",
-    name: "Neha Sharma",
-    role: "Volunteer",
+      "What stood out most to me was how Supratik Infraventures made the entire process feel so personal. They listened to my hopes and really understood what I was looking for. They made the experience warm, comfortable, and enjoyable—something I’ll always remember.",
+    name: "Rashmi M.",
+    role: "Doctor",
   },
 ];
 

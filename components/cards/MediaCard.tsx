@@ -29,7 +29,7 @@ export default function MediaCard({ item, imagePosition = "left" }: MediaCardPro
           href={item.link}
           className="inline-flex items-center gap-2 text-[#F15A24] hover:text-[#d14416] transition-colors text-sm"
         >
-          WATCH NOW
+          Learn More
           <svg
             width="24"
             height="24"
