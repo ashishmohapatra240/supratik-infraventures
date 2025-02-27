@@ -15,7 +15,7 @@ const leaders = [
     name: "Tannmaya",
     position: "Business Head",
     subPosition: "BBSR",
-    image: "/images/team/Tannmay.jpg",
+    image: "/images/team/Tanmay.jpg",
     linkedin: "https://www.linkedin.com/in/prakit-sarda",
   },
   {
