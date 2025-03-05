@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Media | Supratik",
-  description: "Stay updated with the latest news, interviews, and updates from Supratik Inffaventure.",
+  description: "Stay updated with the latest news, interviews, and updates from Supratik Infraventures.",
 };
 
 export default function MediaLayout({
