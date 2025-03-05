@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 interface TimeLeft {
   days: number;
@@ -53,16 +52,17 @@ export default function LaunchingSection() {
   };
 
   return (
-    <section className="py-40">
+    <section className="md:py-48 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="relative h-[300px] lg:h-[400px]">
-            <Image
-              src="/images/hero-image.png"
-              alt="Launching Soon"
-              fill
-              className="object-cover"
+            <video
+              src="/videos/spin.mp4"
+              autoPlay
+              loop
+              muted
+              className="object-cover w-full h-full"
             />
           </div>
 
