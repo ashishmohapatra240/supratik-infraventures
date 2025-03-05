@@ -17,15 +17,15 @@ export default function PropertyShowcase() {
   };
 
   return (
-    <section className="min-h-screen flex items-center py-20 px-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <section className="min-h-screen flex items-center py-10 sm:py-20 px-4 sm:px-20">
+      <div className="max-w-7xl mx-auto relative">
         <div
           className="absolute left-0 right-0 top-1/2 -translate-y-1/2 flex justify-between pointer-events-none"
-          style={{ width: "calc(100% + 4rem)" }}
+          style={{ width: "calc(100% + 4rem)", left: "-2rem" }}
         >
           <button
             onClick={handlePrevious}
-            className="p-2 hover:text-[#F15A24] transition-colors pointer-events-auto -ml-8"
+            className="p-2 hover:text-[#F15A24] transition-colors pointer-events-auto"
             aria-label="Previous property"
           >
             <svg
@@ -47,7 +47,7 @@ export default function PropertyShowcase() {
           </button>
           <button
             onClick={handleNext}
-            className="p-2 hover:text-[#F15A24] transition-colors pointer-events-auto -mr-8"
+            className="p-2 hover:text-[#F15A24] transition-colors pointer-events-auto"
             aria-label="Next property"
           >
             <svg
@@ -68,34 +68,34 @@ export default function PropertyShowcase() {
           </button>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-12 items-center justify-items-center">
           {/* Property Image */}
-          <div className="relative h-[200px] lg:h-[300px]">
+          <div className="relative h-[250px] sm:h-[300px] w-[400px] mx-auto">
             <Image
               src={currentProperty.image}
               alt={currentProperty.name}
               fill
-              className="object-cover"
+              className="object-cover rounded-lg"
               priority
             />
           </div>
 
           {/* Property Details */}
-          <div className="space-y-8">
+          <div className="space-y-4 sm:space-y-8 mx-auto">
             <div>
-              <h2 className="text-2xl font-bold mb-2">
+              <h2 className="text-xl sm:text-2xl font-bold mb-2">
                 {currentProperty.name}
               </h2>
-              <p className="text-gray-600 uppercase tracking-wider text-sm">
+              <p className="text-gray-600 uppercase tracking-wider text-xs sm:text-sm">
                 {currentProperty.size} | {currentProperty.type}
               </p>
             </div>
 
             {/* Amenities */}
-            <div className="flex flex-wrap gap-6">
+            <div className="flex flex-wrap gap-3 sm:gap-6 mx-auto">
               {currentProperty.amenities.map((amenity, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <div className="relative w-6 h-6">
+                  <div className="relative w-5 sm:w-6 h-5 sm:h-6">
                     <Image
                       src={amenity.icon}
                       alt={amenity.label}
@@ -108,11 +108,11 @@ export default function PropertyShowcase() {
               ))}
             </div>
 
-            <p className="text-gray-600 max-w-xl text-sm">
+            <p className="text-gray-600 max-w-xl text-xs sm:text-sm mx-auto">
               {currentProperty.description}
             </p>
 
-            <Button variant="text" href={`/property/${currentProperty.id}`}>
+            <Button variant="text" href={`/property/${currentProperty.id}`} className="mx-auto">
               Discover
             </Button>
           </div>
