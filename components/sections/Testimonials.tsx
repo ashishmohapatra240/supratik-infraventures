@@ -6,7 +6,7 @@ import Image from "next/image";
 const testimonials = [
   {
     id: 1,
-    image: "/images/testimonials/testimonial1.png",
+    image: "/images/testimonials/Manisha.jpg",
     content:
       "I was blown away by the professionalism and dedication of Supratik Infraventures throughout my home-buying journey. They were incredibly knowledgeable about the market and were always available to answer my questions. They helped me find the perfect home for my family and made the entire process stress-free.",
     name: "Manisha T.",
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     id: 2,
-    image: "/images/testimonials/testimonial2.png",
+    image: "/images/testimonials/Rajiv.jpg",
     content:
       "From the very first consultation, I felt like Supratik Infraventures truly understood my needs and aspirations. The team guided me at every step, making sure I found the perfect property. Their attention to detail and commitment to finding exactly what I wanted exceeded all expectations!",
     name: "Rajiv S.",
@@ -22,7 +22,7 @@ const testimonials = [
   },
   {
     id: 3,
-    image: "/images/testimonials/testimonial3.png",
+    image: "/images/testimonials/Arvind.jpg",
     content:
       "The team at Supratik Infraventures didn’t just sell me a property—they became partners in my journey. Their knowledge of the market, honest advice, and attention to detail made the entire experience stress-free. I now feel confident and excited about my investment.",
     name: "Arvind K.",
@@ -30,7 +30,7 @@ const testimonials = [
   },
   {
     id: 4,
-    image: "/images/testimonials/testimonial4.png",
+    image: "/images/testimonials/Rashmi.jpg",
     content:
       "What stood out most to me was how Supratik Infraventures made the entire process feel so personal. They listened to my hopes and really understood what I was looking for. They made the experience warm, comfortable, and enjoyable—something I’ll always remember.",
     name: "Rashmi M.",
@@ -83,7 +83,7 @@ const Testimonials = () => {
             {/* Testimonial Image and Content */}
             <div className="flex flex-col items-center">
               {/* Testimonial Image */}
-              <div className="relative w-32 h-32 mx-auto mb-8">
+              <div className="relative w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden">
                 <div className="absolute inset-0  border-4 border-yellow-400" />
                 <Image
                   src={testimonials[currentIndex].image}

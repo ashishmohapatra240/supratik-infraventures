@@ -8,16 +8,30 @@ import "swiper/css";
 const timelineData = [
   {
     id: 1,
-    year: "1989",
+    title: "Highland De La Mer Pvt. Ltd",
     description:
-      "Supratik Inffaventure combines years of expertise with an unwavering dedication to quality. Each project we undertake is a testament to our",
+      "Highland De La Mer Pvt. Ltd., founded by Mr Pratik Jena in mid-2018, helped low-income aquaculture farmers in India's blue revolution. It focuses on maintaining quality and supply continuity, monitoring commercial and market trends, and upholding sustainability, ethics, and environmental considerations.",
     images: ["/images/timeline/1989-1.jpg", "/images/timeline/1989-2.png"],
   },
   {
     id: 2,
-    year: "1990",
+    title: "Ohm Pipes Pvt. Ltd",
     description:
-      "Supratik  Inffaventure combines years of expertise with an unwavering dedication to quality. Each project we undertake is a testament to our",
+      "Founded in 2013, OHM Pipes Pvt. Ltd is an acknowledged leader of India's plastics industry. Handling volumes of over 320 tonnes of polymers annually effectively makes it one of the largest PVC & HDPE processors in the North Odisha region.",
+    images: ["/images/timeline/1990-1.jpg", "/images/timeline/1990-2.jpg"],
+  },
+  {
+    id: 3,
+    title: "Highland Agro",
+    description:
+      "Highland Agro Foods Pvt. Ltd, a Company incorporated under Company Act 2013, was established in the year 2022 with an aim to set up a world class shrimp processing unit at Balasore with state of art design and facilities.",
+    images: ["/images/timeline/1990-1.jpg", "/images/timeline/1990-2.jpg"],
+  },
+  {
+    id: 4,
+    title: "Highland Health Club",
+    description:
+      "Elevate your fitness journey with our comprehensive facility. Experience high-energy Zumba, intense CrossFit Zone workouts, and optimize your results with premium supplements and GymX apparel. We believe in challenging you to discover your inner strength and achieve peak physical and mental performance. Step into a space designed for transformation.",
     images: ["/images/timeline/1990-1.jpg", "/images/timeline/1990-2.jpg"],
   },
 ];
@@ -42,7 +56,7 @@ export default function TimelineCarousel() {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 {/* Text Content */}
                 <div className="text-white">
-                  <h2 className="text-8xl font-bold mb-8">{item.year}</h2>
+                  <h2 className="text-4xl font-bold mb-8">{item.title}</h2>
                   <p className="text-md">{item.description}</p>
                 </div>
 
@@ -52,7 +66,7 @@ export default function TimelineCarousel() {
                     {item.images.map((image, imgIndex) => (
                       <div
                         key={imgIndex}
-                        className="relative h-48 transform rotate-3 hover:rotate-0 transition-transform duration-300"
+                        className="relative h-48 transform rotate-2 hover:rotate-0 transition-transform duration-300 m-1"
                       >
                         <Image
                           src={image}
@@ -78,7 +92,7 @@ export default function TimelineCarousel() {
                 index === currentIndex ? "bg-[#F15A24]" : "bg-white"
               }`}
               onClick={() => setCurrentIndex(index)}
-              aria-label={`Go to year ${timelineData[index].year}`}
+              aria-label={`Go to year ${timelineData[index].title}`}
             />
           ))}
         </div>
